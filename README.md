@@ -28,9 +28,9 @@ You can use the included Makefile.
 
 - To build the Containers: `make`<br>
   bundle following calls:
-    * `make build_base` (builds an base container with all needed components)
-    * `make build_master`(builds an master container with the icinga certificate service)
-    * `make build_satellite` (build also an satellite)
+    * `make build-base` (builds an base container with all needed components)
+    * `make build-master`(builds an master container with the icinga certificate service)
+    * `make build-satellite` (build also an satellite)
 - To build an valid `docker-compose.yml` file: `make compose-file`
 - To remove the builded Docker Images: `make clean`
 - use a container with login shell:<br>
